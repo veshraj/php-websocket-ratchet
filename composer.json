@@ -1,0 +1,14 @@
+{
+    "name": "vesh/php-websocket-ratchet",
+    "description": "Websocket in corephp",
+    "type": "metapckage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "\"Veshraj Joshi",
+            "email": "veshraj.joshi1@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
