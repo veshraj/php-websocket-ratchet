@@ -1,14 +1,27 @@
 {
-    "name": "vesh/php-websocket-ratchet",
-    "description": "Websocket in corephp",
-    "type": "metapckage",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "\"Veshraj Joshi",
-            "email": "veshraj.joshi1@gmail.com"
-        }
-    ],
-    "minimum-stability": "beta",
-    "require": {}
+  "name": "vesh/php-websocket-ratchet",
+  "description": "Websocket in corephp",
+  "type": "metapckage",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "\"Veshraj Joshi",
+      "email": "veshraj.joshi1@gmail.com"
+    }
+  ],
+  "minimum-stability": "beta",
+  "require": {
+    "cboden/ratchet": "^0.4.3"
+  },
+  "autoload": {
+    "classmap": [],
+    "psr-4": {
+      "Config\\": "config/",
+      "Classes\\": "classes/",
+      "App\\": "app"
+    },
+    "files": [
+      "config/config.php"
+    ]
+  }
 }
